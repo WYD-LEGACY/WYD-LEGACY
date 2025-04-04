@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>WYD - Servidor Privado</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #f5b301;
+    }
+
+    nav a {
+      color: #f5b301;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner {
+      background: url('banner.jpg') center/cover no-repeat;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .banner h2 {
+      font-size: 3em;
+      margin: 0;
+      color: #fff;
+    }
+
+    .sobre, .downloads {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .downloads a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background-color: #f5b301;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WYD Servidor X</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#download">Download</a>
+      <a href="#cadastro">Cadastro</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <h2>Servidor Online - Junte-se à batalha!</h2>
+  </div>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre o Servidor</h2>
+    <p>WYD Servidor X é um servidor privado com rates balanceadas, eventos semanais e uma comunidade ativa. Comece sua jornada agora!</p>
+  </section>
+
+  <section id="download" class="downloads">
+    <h2>Download & Cadastro</h2>
+    <a href="#">Download do Jogo</a>
+    <a href="#">Cadastrar Conta</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WYD Servidor X - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
